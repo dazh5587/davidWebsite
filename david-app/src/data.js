@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "Software Engineer",
       description:
         "Designing and building application using Serverless framework, Chakra UI, React, JavaScript, and Python. Building and maintaining web scrapers that clean and organize data; can be integrated with LinkedIn. Helping make technical and business decisions in preparation for seed funding",
-      image: "https://uploads-ssl.webflow.com/62bcc97246b70c0118da45e0/6304ff0f548e6be41fe2f7e5_favorablyLogo-p-500.png",
+      image: "https://i.ibb.co/f4sXV3Y/Transparent.png",
     },
     {
       title: "Hannover Re",
