@@ -26,8 +26,9 @@ export default function About() {
                 </div>
                
               <p className="mb-8 leading-relaxed">
-                I am a recent graduate from the University of Colorado Boulder. I majored in Applied Math and Computer Science. My interests lay in machine learning, algorithm development, and data science. 
-                I hope to apply my skills and past experience in the financial markets as a software developer or quantitative trader. 
+                I am a recent graduate from the University of Colorado Boulder. I majored in Applied Math and Computer Science. 
+                My interests lay in backend software engineering, machine learning, algorithm development, and data science. I am actively seeking employment as a software developer
+                Eventually, I hope to apply my skills and past experience in the financial markets as a software developer or quantitative trader. 
               </p>
               <div className="flex justify-center">
               </div>
