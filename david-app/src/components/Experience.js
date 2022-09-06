@@ -36,6 +36,9 @@ export default function Experience() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
+                  <h1 className="title-font text-sm font-medium text-white mb-2">
+                    {project.date}
+                  </h1>
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
