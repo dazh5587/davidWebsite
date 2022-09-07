@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Achievements from "./components/Accomplishments";
 import Education from './components/Education';
 import Particle from './components/Particles';
-//import Particles, { ISourceOptions } from "react-tsparticles";
+
 
 export default function App() {
   return (
