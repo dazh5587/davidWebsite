@@ -1,5 +1,6 @@
 import React from "react";
 import { PhoneIcon, InboxIcon } from "@heroicons/react/solid";
+import Particle from "./Particles";
 export default function About() {
     return (
       <>
@@ -10,15 +11,14 @@ export default function About() {
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                 David Zhao
               </h1>
-
-                <div className="flex space-x-4 z-50">
-                    <a href="https://www.linkedin.com/in/david-zhao-406247174">
+                <div className="flex space-x-4 z-20">
+                    <a href="https://www.linkedin.com/in/david-zhao-406247174" target="_blank">
                         <i class="fa fa-linkedin-square" style = {{fontSize: 36}}></i>
                     </a>
-                    <a href="https://www.github.com/dazh5587">
+                    <a href="https://www.github.com/dazh5587" target="_blank">
                         <i class="fa fa-github-square" style = {{fontSize: 36}}></i>
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=100005232905576">
+                    <a href="https://www.facebook.com/profile.php?id=100005232905576" target="_blank">
                         <i class="fa fa-facebook-square" style = {{fontSize: 36}}></i>
                     </a>
                 </div>
@@ -31,11 +31,13 @@ export default function About() {
               <div className="mb-8 flex space-x-4 ">
                 <a
                 href = "https://drive.google.com/file/d/1p9RB0Ked4ESgTuG2olO3Gxhau1GHLC1D/view?usp=sharing" 
-                className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg z-50">
+                target="_blank"
+                className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg z-20">
                     Resume </a>
                   <a
                 href = "https://drive.google.com/file/d/1aVGT7dg_88hefLJv6l-czJoNek8ib1oc/view?usp=sharing" 
-                className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg z-50">
+                target="_blank"
+                className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg z-20">
                     Transcript </a>
               </div>
               
@@ -67,6 +69,6 @@ export default function About() {
             </div>
           </div>
         </section>
-      </>
+        </>
       );
 }
